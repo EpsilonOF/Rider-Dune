@@ -1,30 +1,69 @@
-**Jeu Rider**
+# Rider-Dune
 
-Bienvenue dans le jeu Rider ! Voici quelques instructions importantes à suivre pour installer et jouer au jeu.
+## Project Overview
+Rider-Dune is a Java-based implementation of two classic arcade games. This project demonstrates object-oriented programming principles and game development concepts using Java.
 
-**Prérequis**
+## Games Included
+1. **Rider** - A modern take on the classic line rider game where players navigate a character along paths while avoiding obstacles.
+2. **Dune** - Inspired by desert racing games, this implementation challenges players to navigate dunes and collect items while maintaining speed and control.
 
-Avant de commencer, vous devez installer la police Upheaval. Pour ce faire, veuillez installer la version correspondante à votre système d'exploitation dans le dossier "police". 
-Cette étape est impérative pour le bon fonctionnement du jeu.
+## Features
+- Clean object-oriented architecture
+- Smooth game mechanics and controls
+- Score tracking system
+- Multiple difficulty levels
+- Custom graphics and animations
 
-**Installation**
+## Technical Details
+- **Language**: Java
+- **Graphics**: Java AWT/Swing
+- **Project Structure**: Model-View-Controller pattern
 
-Pour lancer le jeu, vous devez donner la permission d'exécution au fichier Start.sh. Voici comment procéder :
+## Getting Started
 
-1. Ouvrez un terminal dans le dossier du jeu.
-2. Tapez la commande suivante pour donner la permission d'exécution : *chmod 700 Start.sh*
-3. Une fois la permission accordée, vous pouvez lancer le jeu en exécutant le fichier Start.sh avec la commande suivante : *./Start.sh*
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, NetBeans)
 
-**Navigation dans le jeu**
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/EpsilonOF/Rider-Dune.git
+   ```
+2. Open the project in your preferred Java IDE
+3. Build the project
+4. Run the main application class
 
-Une fois dans le jeu, vous pouvez choisir entre deux modes de jeu : Rider et Dune.
+### Game Controls
+#### Rider
+- Arrow keys for movement
+- Space bar to jump/activate special moves
 
-Il y a également une boutique où vous pouvez acheter différents skins pour personnaliser votre expérience de jeu, ainsi qu'une page de paramètres où vous pouvez ajuster divers aspects du jeu.
+#### Dune
+- WASD keys for movement
+- E key for special actions
 
-**Contrôles**
+## Project Structure
+- `src/` - Source code directory
+  - `rider/` - Rider game implementation
+  - `dune/` - Dune game implementation
+  - `common/` - Shared utilities and components
+- `resources/` - Game assets (images, sounds, etc.)
+- `docs/` - Documentation files
 
-Par défaut, vous pouvez avancer en appuyant sur la barre espace. Si vous avez modifié cette action dans les paramètres, utilisez la touche que vous avez sélectionnée.
+## Future Improvements
+- Add multiplayer support
+- Implement more levels
+- Create a high-score system with database integration
+- Add sound effects and background music
+- Support for gamepad controllers
 
-Pour mettre le jeu en pause pendant une partie, appuyez sur p.
+## Contributing
+Contributions to improve the games or add new features are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-**Bon jeu à tous !**
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- Inspiration from classic arcade games
+- Thanks to all contributors who have helped with the development
